@@ -3,19 +3,19 @@ let initrun = true;
 let page = 1;
 
 // pages
-import Frontpage from "/js/pages/frontpage.js";
-import discpage from "/js/pages/discoverpage.js"
-import bropage from "/js/pages/browsepage.js"
-import pickerPage from "/js/pages/pickerpage.js"
+import Frontpage from "./js/pages/frontpage.js";
+import discpage from "./js/pages/discoverpage.js"
+import bropage from "./js/pages/browsepage.js"
+import pickerPage from "./js/pages/pickerpage.js"
 
 
 // services
-import SpaService from "/js/Services/spa.js"
-import FrontPanimation from "/js/Services/FrontPAnimations.js"
-import Discoverservice from "/js/Services/DiscoverService.js"
-import Browseservice from "/js/Services/BrowseService.js"
-import {whichmode} from "/js/Services/BrowseService.js"
-import pickerseriveces from "/js/Services/pickerService.js"
+import SpaService from "./js/Services/spa.js"
+import FrontPanimation from "./js/Services/FrontPanimations.js"
+import Discoverservice from "./js/Services/DiscoverService.js"
+import Browseservice from "./js/Services/BrowseService.js"
+import {whichmode} from "./js/Services/BrowseService.js"
+import pickerseriveces from "./js/Services/pickerService.js"
 
 // libraries
 import * as THREE from './js/three.module.js';

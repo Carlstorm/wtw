@@ -3,10 +3,10 @@ let initrun = true;
 let page = 1;
 
 // pages
-import Frontpage from "./js/pages/frontpage.js";
-import discpage from "./js/pages/discoverpage.js"
-import bropage from "./js/pages/browsepage.js"
-import pickerPage from "./js/pages/pickerpage.js"
+import Frontpage from "/js/pages/frontpage.js";
+import discpage from "/js/pages/discoverpage.js"
+import bropage from "/js/pages/browsepage.js"
+import pickerPage from "/js/pages/pickerpage.js"
 
 
 // services

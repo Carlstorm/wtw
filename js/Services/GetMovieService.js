@@ -21,7 +21,7 @@ export default class GetMovies {
                     return response.json();
                 })
         } else {
-            console.log(input)
+            // console.log(input)
             data2 = await fetch("https://api.themoviedb.org/3/search/movie?api_key=c8221cf4085bc40d4613ba2de4737221&query="+input+"&page="+pagenr+"")
                 .then((response) => {
                     return response.json();
@@ -95,7 +95,7 @@ export default class GetMovies {
             .then((response) => {
                 return response.json();
             })
-            console.log(data2)
+            // console.log(data2)
         for (let i = 0; i < data2.results.length; i++) {
             let a = new Object();
             a.id = data2.results[i].id

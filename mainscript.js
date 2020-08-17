@@ -153,7 +153,7 @@ window.Intbrowse = () => {
 window.testfuck = () => {
     document.getElementById("moviedisplaywrap").innerHTML = `<div id="windowchecker"></div>`;
     browseservice.getMovies(document.getElementById("Bgenre").value, false, true, document.getElementById("Bsortby").value);
-    console.log(document.getElementById("Bgenre").value)
+    // console.log(document.getElementById("Bgenre").value)
 }
 
 
@@ -181,7 +181,7 @@ window.pagenrchange = (la) => {
 export default function loadpagespecifikfunks(pid) {
     page = 1;
     // setTimeout(function() { document.getElementById(pid).classList.add("pageswitchani");  },50)
-    console.log("run")
+    // console.log("run")
     if (initrun) {
         initrun = false;
     } else if (pid == "home") {

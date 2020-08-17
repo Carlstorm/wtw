@@ -24,7 +24,7 @@ export default class pickerseriveces {
                     </div>
                 `
             }
-            console.log(movie)
+            // console.log(movie)
         })
     }
 

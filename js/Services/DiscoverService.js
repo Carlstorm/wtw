@@ -61,7 +61,7 @@ export default class Discoverservice {
       if (!pagenr) {
         pagenr = 1;
       }
-      console.log(Pgenre)
+      // console.log(Pgenre)
       document.getElementById("pagenr").innerHTML = pagenr;
       document.getElementById("dadadada").style.transition = "0s";
       document.getElementById("dadadada").style.opacity = 0;

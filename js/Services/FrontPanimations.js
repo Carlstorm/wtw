@@ -92,7 +92,7 @@ Animate() {
     }
 
     // callback
-    console.log(1)
+    // console.log(1)
     if (window.location.hash == "#home") {
         window.requestAnimationFrame(function() {
             dada(starGeo, stars, renderer, scene, camera);

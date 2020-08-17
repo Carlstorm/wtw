@@ -19,7 +19,7 @@ export default class Browseservice {
         let DiscoverHTML = "";
         let dis = this;
         Promise.resolve(getMovie.DiscoverMovies(GenreID, pagenr, sortby, "poster", input)).then(function(movie) {
-            console.log(movie)
+            // console.log(movie)
             let i = 0;
             dis.nomoremovies = false;
             if (movie.length == 0) {
@@ -168,7 +168,7 @@ export default class Browseservice {
                   for (let i = 0; i<data.genres.length; i++) {
                       if (data.genres[i].name == pickedgenre) {
                           pickedgenreId = data.genres[i].id;
-                          console.log(data.genres[i].id)
+                        //   console.log(data.genres[i].id)
                       }
                   }
                   dis.loadMovies(pickedgenreId, dis.pagesToLoad, sortby, false);
@@ -252,7 +252,7 @@ export default class Browseservice {
     loadMoreOnScroll(){
             if(this.WW && !this.nomoremovies) {
                 if (document.getElementById("windowchecker").offsetTop < (window.innerHeight+window.pageYOffset)) {
-                    console.log(this.WW)
+                    // console.log(this.WW)
                     this.WW = false;
                     // var element = document.getElementById("windowchecker");
                     // element.parentNode.removeChild(element);
@@ -302,7 +302,7 @@ export default class Browseservice {
         document.querySelector("body").style.filter = "blur(2px)"
         document.querySelector("html").append(overlay)
         Promise.resolve(getMovie.getmoviefromID(movieID)).then(function(movie) {
-            console.log(movie)
+            // console.log(movie)
             let convertedRating = 100-(movie.vote_average*10)
         overlay.innerHTML = `
         <div onclick="hideselectedmovie()">

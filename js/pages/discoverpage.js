@@ -21,9 +21,9 @@ export default class discpage {
        <div id="searchbarBLB"></div>
       <section id="dadadada"></section>
       <div id="pageswitchwrap">
-      <div id="pageback" onclick="pagenrchange(-1);"><img src=".././icons/arrow.svg"></div>
+      <div id="pageback" onclick="pagenrchange(-1);"><img src="./icons/arrow.svg"></div>
       <div id="pagenr">1</div>
-      <div id="pagefowards" onclick="pagenrchange(1);"><img src=".././icons/arrow.svg"></div>
+      <div id="pagefowards" onclick="pagenrchange(1);"><img src="./icons/arrow.svg"></div>
       </div>
       </section>
             `;

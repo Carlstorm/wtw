@@ -10,12 +10,12 @@ import pickerPage from "./js/pages/pickerpage.js"
 
 
 // services
-import SpaService from "./js/Services/spa.js"
-import FrontPanimation from "./js/Services/FrontPAnimations.js"
-import Discoverservice from "./js/Services/DiscoverService.js"
-import Browseservice from "./js/Services/BrowseService.js"
-import {whichmode} from "./js/Services/BrowseService.js"
-import pickerseriveces from "./js/Services/pickerService.js"
+import SpaService from "/js/Services/spa.js"
+import FrontPanimation from "/js/Services/FrontPAnimations.js"
+import Discoverservice from "/js/Services/DiscoverService.js"
+import Browseservice from "/js/Services/BrowseService.js"
+import {whichmode} from "/js/Services/BrowseService.js"
+import pickerseriveces from "/js/Services/pickerService.js"
 
 // libraries
 import * as THREE from './js/three.module.js';

@@ -209,8 +209,8 @@ export default class Browseservice {
         
 
         if (!da) {
-        document.styleSheets[1].rules[0].style.width = ""+Mwidth+"px"
-        document.styleSheets[1].rules[0].style.height = ""+Mheight+"px"
+        document.styleSheets[0].rules[0].style.width = ""+Mwidth+"px"
+        document.styleSheets[0].rules[0].style.height = ""+Mheight+"px"
         }
 
         
